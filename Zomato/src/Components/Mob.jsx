@@ -23,12 +23,12 @@ function Mob() {
             </div>
           </div>
           <div><br />
-            <input className='h-12 w-60 border border-1 border-blue-400' type="text" placeholder='Email or Phone??' /><button className='bg-pink-500 rounded h-12 w-50 text-white border border-1 border-black'>Share App Link</button>
+            <input className='h-12 w-60 border border-1 border-blue-400' type="text" placeholder='Email or Phone??' /><button className='bg-pink-500 rounded h-12 w-50 text-white border border-1 border-black absolute'>Share App Link</button>
           </div><br />
           <p>Download app from</p>
           <div className='flex'>
-            <img className='h-30 w-40' src="play-store.png" alt="play-store" />
-            <img className='h-30 w-40' src="app-store.png" alt="app-store" />
+            <img className='h-30 w-40 cursor-pointer' src="play-store.png" alt="play-store" />
+            <img className='h-30 w-40 cursor-pointer' src="app-store.png" alt="app-store" />
           </div>
         </div>
       </div>
@@ -41,7 +41,7 @@ function Mob() {
         <h1 className='text-black'>Popular cuisines near me</h1>
       </button>
     </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <a href="#">Bakery food near meBeverages food near meBiryani food near meBurger food near meCafe food near meChinese food near meCoffee food near meDesserts food near meGujarati food near meIce Cream food near meItalian food near meMughlai food near meNorth Indian food near mePizza food near meSandwich food near meShake food near meSichuan food near meSouth Indian food near meStreet food near meTea food near me</a>
       </div>

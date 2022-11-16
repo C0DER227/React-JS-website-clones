@@ -6,7 +6,7 @@ function Collections() {
     <h1 className='text-3xl font-bold'>Collections:</h1>
     <div className='flex gap-96'>
         <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Vadodara, based on trends</p>
-        <p className='cursor-pointer text-pink-400'>All collections in Vadodara...</p>
+        <p className='cursor-pointer text-pink-400 '>All collections in Vadodara...</p>
     </div>
     <div className='grid grid-cols-5 gap-12 m-4 p-4'>
         <div className='overflow-hidden'>
