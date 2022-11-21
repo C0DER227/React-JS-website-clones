@@ -1,0 +1,41 @@
+.title{
+    height: 70px;
+    background-color: black;
+}
+
+.titleName{
+    color: #fff;
+}
+.uptitle{
+    background-color: black;
+}
+.head1{
+    color: black;
+}
+.pop{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+.pimg{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.pimg:hover{
+    transform: translateY(-10px) scale(1.05);
+}
+.footer >p{
+   color: #fff;
+   text-align: center;
+}
+a{
+    text-decoration: none;
+}
+em{
+    color: red;
+    text-decoration: none;
+}
